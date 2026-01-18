@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/layout_activity_main.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/color_nav_item_color.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/color/nav_item_color.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_tomato_mask.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/tomato_mask.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_list.png.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/list.png"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_nav_list_icon_size.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/nav_list_icon_size.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_button_circle.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/button_circle.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_delete_button_background.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/delete_button_background.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/layout_fragment_tasks.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/layout/fragment_tasks.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/layout_task_item.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/layout/task_item.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_pomidorstart.png.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/pomidorstart.png"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_tasks_background.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/tasks_background.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_nav_icon_size.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/nav_icon_size.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_tomato_clip.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/tomato_clip.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_edit_text_background.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/edit_text_background.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_task_item_background.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/task_item_background.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_pomidor.png.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/pomidor.png"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_nav_item_background.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/nav_item_background.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/layout_priority_dialog.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/layout/priority_dialog.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_tomato_icon.png.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/tomato_icon.png"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/xml_backup_rules.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/layout_fragment_pomodoro.xml.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/layout/fragment_pomodoro.xml"
+    },
+    {
+        "merged": "com.example.projectpomidoro.app-debug-51:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectpomidoro.app-main-53:/mipmap-xxhdpi/ic_launcher_round.webp"
+    }
+]
