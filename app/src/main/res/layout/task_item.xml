@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/taskItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/task_item_background"
+    android:gravity="center_vertical">
+
+    <!-- Левый столбец - индикатор приоритета (кликабельный для смены цвета) -->
+    <View
+        android:id="@+id/priorityIndicator"
+        android:layout_width="8dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="12dp"
+        android:background="#4CAF50"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Средний столбец - название задачи -->
+    <TextView
+        android:id="@+id/textViewTask"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Задача"
+        android:textColor="#EDEDED"
+        android:textSize="16sp"
+        android:paddingVertical="8dp" />
+
+    <!-- Правый столбец - галочка активации -->
+    <CheckBox
+        android:id="@+id/checkBoxActive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:buttonTint="#D32F2F"
+        android:checked="true" />
+
+</LinearLayout>

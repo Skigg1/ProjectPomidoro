@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#282828"
+    android:padding="24dp">
+
+    <!-- Заголовок -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:text="Мои задачи"
+        android:textColor="#D32F2F"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Статус -->
+    <TextView
+        android:id="@+id/textViewTasksStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавьте ваши задачи"
+        android:textSize="16sp"
+        android:textColor="#EDEDED"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Контейнер для задач -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Активные задачи:"
+        android:textColor="#D32F2F"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:id="@+id/tasksContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+    <!-- Разделитель -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#5E5E5E"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Поле для добавления новой задачи -->
+    <EditText
+        android:id="@+id/editTextNewTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Введите новую задачу..."
+        android:padding="16dp"
+        android:textColor="#EDEDED"
+        android:textColorHint="#AAAAAA"
+        android:textSize="16sp" />
+
+    <!-- Кнопка добавления задачи -->
+    <Button
+        android:id="@+id/buttonAddTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D32F2F"
+        android:text="Добавить задачу"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:paddingVertical="12dp" />
+
+</LinearLayout>
