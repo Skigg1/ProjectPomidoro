@@ -1,0 +1,3 @@
+com.example.projectpomidoro.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

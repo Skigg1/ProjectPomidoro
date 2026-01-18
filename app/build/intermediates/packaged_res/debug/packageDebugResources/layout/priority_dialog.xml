@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Название задачи -->
+    <TextView
+        android:id="@+id/textTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Название задачи"
+        android:textColor="#EDEDED"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- Опции выбора -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <!-- Зеленый вариант -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/colorGreen">
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#4CAF50"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Низкая"
+                android:textColor="#EDEDED"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <!-- Желтый вариант -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/colorYellow">
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#FFC107"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textYellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Средняя"
+                android:textColor="#EDEDED"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <!-- Красный вариант -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/colorRed">
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#F44336"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Высокая"
+                android:textColor="#EDEDED"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Подсказка -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нажмите на цвет для выбора важности"
+        android:textColor="#AAAAAA"
+        android:textSize="12sp"
+        android:gravity="center" />
+
+</LinearLayout>

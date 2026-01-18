@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#D32F2F">
+    <item>
+        <selector>
+            <item android:state_pressed="true">
+                <color android:color="#D32F2F" />
+            </item>
+            <item android:state_checked="true">
+                <color android:color="#D32F2F" />
+            </item>
+            <item>
+                <color android:color="#D32F2F" />
+            </item>
+        </selector>
+    </item>
+</ripple>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282828"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <!-- Заголовок -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Pomodoro Timer"
+        android:textColor="#D32F2F"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!-- Статус таймера -->
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Готов к работе!"
+        android:textColor="#D9D9D9FF"
+        android:textSize="20sp" />
+
+    <!-- Таймер -->
+    <TextView
+        android:id="@+id/textViewTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="25:00"
+        android:textColor="#D32F2F"
+        android:textSize="72sp"
+        android:textStyle="bold" />
+
+    <!-- Кнопка-помидор с анимацией заполнения -->
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="30dp">
+
+        <!-- Черно-белый помидор  -->
+        <ImageView
+            android:id="@+id/imageTomatoBW"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pomidorstart" />
+
+        <!-- Цветной помидор -->
+        <ImageView
+            android:id="@+id/imageTomatoColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tomato_clip" /> <!-- ClipDrawable -->
+
+        <!-- Кликабельная область -->
+        <ImageButton
+            android:id="@+id/imageButtonStart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:contentDescription="Запуск таймера"
+            android:scaleType="fitCenter"
+            android:src="@android:color/transparent" />
+
+    </FrameLayout>
+
+    <!-- Кнопка Стоп -->
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#D32F2F"
+        android:text="Стоп"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <!-- Счетчик сессий -->
+    <TextView
+        android:id="@+id/textViewSessionCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Сессий завершено: 0"
+        android:textColor="#D9D9D9FF"
+        android:textSize="16sp" />
+
+</LinearLayout>

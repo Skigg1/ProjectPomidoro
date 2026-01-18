@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_timer"
+        android:icon="@drawable/nav_icon_size"
+        android:title="Таймер" />
+
+    <item
+        android:id="@+id/navigation_tasks"
+        android:icon="@drawable/nav_list_icon_size"
+        android:title="Задачи" />
+</menu>
